@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    width:40%;
+}
+
+.container{
+    margin-top:10vh;
+    
+    width:30vw;
+ 
+}
+.topDiv{
+    text-align: center;
+}
+
+form > button {
+    margin-left: 2vw;
+
+}
+form > button:hover{
+    color:white;
+    background-color: black;
+}
+.card{
+    box-shadow:0 5px 10px 0 rgba(0,0,0,0.2);
+    transition:0.4s;
+    border-radius:10px;
+}
+
+.bottomDiv > h1{
+    text-align: center;
+}
+
+.listItems > input {
+    margin-left:2vw;
+    padding-left: 10;
+    text-align: left;
+    width:60%;
+}
+
+.buttons{
+  margin-left: 2vw;
+}
+
+.buttons > a {
+    text-decoration: none;
+    
+}
+
+.far {
+    margin:6px;
+    color:black;
+
+}
+
+.bottomDiv > input[type=text]{
+    text-decoration: line-through;
+    transition: 0.5s;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+@media only screen and (max-width:500px){
+    body{
+        font-size: 20px!important;
+    }
+    .container{
+        width:80vw;
+        
+    }
+    h1{
+        font-size: 1em;
+    }
+    h3{
+        font-size: 0.8em;
+    }
+    .far{
+        width:5px;
+        height:5px;
+        margin:14px;
+    }
+}
